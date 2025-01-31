@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+}
+.basketball-board {
+    background-color: black;
+    color: red;
+    font-family: 'Bangers', cursive; /* A bold and sporty font */
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+    border: 4px solid red;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 20px auto;
+    width: fit-content;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    background: linear-gradient(145deg, #444, #222);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+.team {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.team h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.team .score {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(145deg, #ff3e3e, #c22f2f);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.home .score {
+    background: linear-gradient(145deg, #4caf50, #388e3c);
+}
+
+.guest .score {
+    background: linear-gradient(145deg, #2196f3, #1769aa);
+}
+
+.buttons {
+    
+    justify-content: center;
+    padding: 2px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
